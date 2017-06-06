@@ -22,3 +22,47 @@ $navbar-default-bg: #000066;
 .center {
     text-align: center;
 }
+
+.jumbotron {
+    background-image: asset-url('computer-wallpaper2.jpg');
+    background-size: cover;
+    height: 605px;
+}
+.jumbotron h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    //background-color: black;
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+    background-color: gainsboro;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer small {
+    float: left;
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
