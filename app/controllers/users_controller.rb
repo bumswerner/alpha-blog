@@ -28,9 +28,20 @@ class UsersController < ApplicationController
   end
   
   
+  def show
+    @user = User.find(params[:id])
+  end
+  
+  # Here begins the private area
+  
   private
+  
   def user_params
     params.require(:user).permit(:username, :email, :password)  
+  end
+  
+  def set_user
+    @user = User.find(params[:id])
   end
     
 end
