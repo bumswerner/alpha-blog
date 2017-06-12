@@ -1,11 +1,7 @@
 // change the bootstrap default color
 $navbar-default-bg: #000066;
-
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
-
 #logo {
   float: left;
   font-size: 1.7em;
@@ -29,6 +25,7 @@ $navbar-default-bg: #000066;
   background-size: cover;
   height: 605px;
 }
+
 .jumbotron h1 {
   color: #fff;
   text-align: center;
@@ -47,14 +44,13 @@ $navbar-default-bg: #000066;
   background-color: gainsboro;
 }
 
-
 .article-actions {
   border-top: 1px solid #eaeaea;
   padding-top: 5px;
 }
 
 .description {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .article-title {
