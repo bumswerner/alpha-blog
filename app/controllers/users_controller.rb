@@ -38,6 +38,7 @@ class UsersController < ApplicationController
     @user_articles = @user.articles.paginate(page: params[:page], per_page: 4)
   end
   
+  
   # Here begins the private area
   
   private
