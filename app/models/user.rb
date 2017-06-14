@@ -1,6 +1,7 @@
 class User < ActiveRecord::Base
   
-  has_many :articles
+  # delete all articles if the user has been deleted
+  has_many :articles, dependent: :destroy
   
   # action before a article has been saved
   before_save { self.email = email.downcase }
